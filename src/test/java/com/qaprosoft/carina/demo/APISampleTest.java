@@ -20,6 +20,7 @@ import java.lang.invoke.MethodHandles;
 import org.skyscreamer.jsonassert.JSONCompareMode;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.qaprosoft.apitools.validation.JsonCompareKeywords;
@@ -82,5 +83,15 @@ public class APISampleTest extends AbstractTest {
         deleteUserMethod.callAPI();
         deleteUserMethod.validateResponse();
     }
+
+	@Test
+	public void testFailure1() {
+		Assert.fail("Intentional failure");
+	}
+
+	// @Test
+	// public void testFailure2() {
+	// Assert.fail("Intentional failure");
+	// }
 
 }

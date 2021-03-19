@@ -11,7 +11,7 @@
 	<parameter name="jenkinsEmail" value="szagriychuk@solvd.com"/>
 	
 	<parameter name="jenkinsThresholdEmail" value="szagriychuk@solvd.com"/>
-	<parameter name="jenkinsThresholdPercent" value="90"/>
+	<parameter name="jenkinsThresholdPercent" value="75"/>
 	
 	<parameter name="jenkinsRegressionPipeline" value="api_regression, full_regression"/>
 	<parameter name="jenkinsRegressionScheduling_api_regression" value="H 2 * * *"/>
