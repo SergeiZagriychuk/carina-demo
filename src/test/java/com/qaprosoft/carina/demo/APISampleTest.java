@@ -89,9 +89,9 @@ public class APISampleTest extends AbstractTest {
 		Assert.fail("Intentional failure");
 	}
 
-	// @Test
-	// public void testFailure2() {
-	// Assert.fail("Intentional failure");
-	// }
+	@Test
+	public void testFailure2() {
+		Assert.fail("Intentional failure");
+	}
 
 }
