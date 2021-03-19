@@ -10,8 +10,8 @@
 	<!-- <parameter name="jenkinsSlackChannels" value="slack-test,slack-test2"/> -->
 	<parameter name="jenkinsEmail" value="szagriychuk@solvd.com"/>
 	
-	<parameter name="jenkinsThresholdEmail" value="szagriychuk@solvd.com"/>
-	<parameter name="jenkinsThresholdEmailPercent" value="75"/>
+	<parameter name="jenkinsFailedEmail" value="szagriychuk@solvd.com"/>
+	<parameter name="jenkinsFailedEmailPassRateThreshold" value="75"/>
 	
 	<parameter name="jenkinsRegressionPipeline" value="api_regression, full_regression"/>
 	<parameter name="jenkinsRegressionScheduling_api_regression" value="H 2 * * *"/>
